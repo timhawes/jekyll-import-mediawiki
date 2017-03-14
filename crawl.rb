@@ -62,7 +62,7 @@ def date(revision)
   revision['timestamp']
 end
 
-site_uri = URI(ENV['TARGET_SITE']
+site_uri = URI(ENV['TARGET_SITE'])
 site_uri.path = '/api.php'
 
 directory_path = "_pages/"
